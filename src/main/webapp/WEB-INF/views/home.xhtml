@@ -15,13 +15,16 @@
 
 <ui:define name="content">
 	<p:tabView activeIndex="${param.tab}">
+		<p:tab title="TO DO">
+			
+		</p:tab>
+
 		<p:tab title="Project list">
 
 			<h:outputLink value="top-flow-with-embedded-subflow?tab=0" >
 				<h2><h:outputText value="New Project" /></h2>
 			</h:outputLink><br/>
-			<hr/>
-
+			<p><hr/></p>
 			<table>
 				<tr>
 					<td>
@@ -63,9 +66,9 @@
 			</table>
 		</p:tab>
 
-		<p:tab title="Something else">
+		<p:tab title="Property calculation">
 			
-		</p:tab>	
+		</p:tab>
 	</p:tabView>
 
 </ui:define>

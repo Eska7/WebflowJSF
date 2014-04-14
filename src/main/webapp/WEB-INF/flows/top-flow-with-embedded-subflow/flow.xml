@@ -12,7 +12,7 @@
 		<transition on="launch" to="embedded-flow"/>
 	</view-state>
 
-	<end-state id="out" view="externalRedirect:servletRelative:/home?tab=#{tab}" />
+	<end-state id="out" view="externalRedirect:servletRelative:/home?tab=1" />
 
 	<subflow-state id="embedded-flow" subflow="top-flow-with-embedded-subflow/embedded-flow">
 		<input name="mode" value="'embedded'"/>

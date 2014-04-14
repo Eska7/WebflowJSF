@@ -6,7 +6,7 @@
 
 	<input name="tab" value="flowScope.tab" required="false" />
 
-	<end-state id="end" view="externalRedirect:servletRelative:/home?tab=#{tab}" />
+	<end-state id="end" view="externalRedirect:servletRelative:/home?tab=1" />
 
 	<global-transitions>
 		<transition on="exit" to="end" />
